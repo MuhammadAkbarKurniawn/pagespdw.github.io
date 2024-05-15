@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+  }
+  
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .navbar {
+    background-color: #1e88e5; /* Warna biru estetik */
+    color: #fff;
+    padding: 30px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar-text {
+    font-size: 24px;
+  }
+  
+  .nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-right: 15px;
+  }
+  
+  .nav-links li:last-child {
+    margin-right: 0;
+  }
+  
+  .nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links li a:hover {
+    color: #ddd;
+  }
+  
+  .header {
+    background-color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .date-time {
+    font-size: 18px;
+    color: #444;
+    margin-right: 30px;
+  }
+  
+  .greeting {
+    font-size: 24px;
+    color: #333;
+    margin-left: 30px;
+  }
+  
+/* Your CSS styles here */
+.carousel {
+    width: 70%;
+    margin: 20px auto;
+  }
+  
+  .carousel .slick-slide img {
+    width: 100%; /* Set the width of the images to 100% */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  /* Style for the dots/indicators */
+  .slick-dots {
+    position: relative;
+    bottom: 0;
+    list-style: none;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+  }
+  
+  .slick-dots li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .slick-dots li button {
+    font-size: 0; /* Hide the button text */
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .slick-dots li.slick-active button {
+    background-color: #fff; /* White color for active dot */
+  }
+  
+  .card-container {
+    display: flex; /* Tampilkan kartu secara horizontal */
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 20px; /* Tambahkan margin kanan antara kartu */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card:last-child {
+    margin-right: 0; /* Hapus margin kanan pada kartu terakhir */
+  }
+  
+  .card img {
+    width: 500px;
+    height: auto;
+  }
+  
+  .card-content {
+    padding: 15px;
+    font-size: 18px;
+    color: #333;
+  }
+  
+  .footer {
+    background-color: #1e88e5; 
+    color: #fff;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 40px;
+  }
+  
